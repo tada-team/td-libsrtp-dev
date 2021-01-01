@@ -25,7 +25,7 @@ jobs:
         run: |
           mkdir -p td-libsrtp-dev_${{env.version}}/usr/local/src
           cd td-libsrtp-dev_${{env.version}}/usr/local/src
-          curl -L -o libsrtp-${{env.version}}.tar.gz https://github.com/cisco/libsrtp/archive/${{env.version}}.tar.gz
+          curl -L -o libsrtp-${{env.version}}.tar.gz https://github.com/cisco/libsrtp/archive/v${{env.version}}.tar.gz
           tar zvxf libsrtp-${{env.version}}.tar.gz
           rm libsrtp-${{env.version}}.tar.gz
       - name: Build .deb
