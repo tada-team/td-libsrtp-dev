@@ -1,0 +1,8 @@
+#!/bin/bash
+set -ex
+
+cd /usr/local/src/libsrtps-%VERSION%
+
+./configure --prefix=/usr --enable-openssl
+make shared_library
+sudo make install

@@ -1,0 +1,8 @@
+Package: td-libsrtp-dev
+Version: %VERSION%
+Maintainer: Tada.team <info@tada.team>
+Architecture: all
+Section: devel
+Description: custom libsrtp build
+Conflicts: libsrtp-dev
+Depends: build-essential
