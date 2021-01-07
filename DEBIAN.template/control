@@ -5,4 +5,4 @@ Architecture: all
 Section: devel
 Description: custom libsrtp build
 Conflicts: libsrtp-dev
-Depends: build-essential
+Depends: build-essential, libssl-dev

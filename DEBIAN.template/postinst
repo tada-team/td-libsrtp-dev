@@ -5,4 +5,4 @@ cd /usr/local/src/libsrtp-%VERSION%
 
 ./configure --prefix=/usr --enable-openssl
 make shared_library
-sudo make install
+make install
