@@ -1,8 +1,0 @@
-#!/bin/bash
-set -ex
-
-cd /usr/local/src/libsrtp-%VERSION%
-
-./configure --prefix=/usr --enable-openssl
-make shared_library
-make install
